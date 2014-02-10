@@ -6,13 +6,12 @@
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/master.css">
     <script src="js/vendor/modernizr.js"></script>
-    <title>Discography Database</title>
+    <title>Your Collection</title>
   </head>
   <body>
 	<header>
 	    <div class="row">
 		<div class="large-8 medium-6 small-12 columns">
-		    <!-- branding to come later -->
 		    <a href="index.html"><img src="http://placehold.it/300x150" alt="logo" /></a>
 		</div>
 		<div class="large-4 medium-6 hide-for-small-only columns">
@@ -24,7 +23,6 @@
 	    </div>
 	    <div class="show-for-small-only row">
 		<div class="small-12">
-		    <!-- button functionality to come later -->
 		    <ul class="button-group">
 			<li><a href="#" class="button small">Sign Up</a></li>
 			<li><a href="#" class="button small">Log In</a></li>
@@ -42,9 +40,62 @@
 	    </ul>
 	</div>
 	<div class="medium-9 columns content">
-	    <h1>Welcome to the Discography Database!</h1>
-	    <p>The discography database is great for music lovers who can't seem to keep track of their records and enthusiasts who want to show off their collections.</p>
-	    <p>If you're new, sign up <a href="#">here</a>.</p><br /><br /><br/><br /><br /><br/><br /><br /><br/>
+	  <!-- Hopefully we'll make this a php loop from a database query -->
+	  <h1>Your Collection</h1>
+	    <table>
+	      <thead>
+		<tr>
+		  <th width="200">Album Title</th>
+		  <th>Album Artist</th>
+		  <th width="150">Record Label</th>
+		  <th width="150">Type</th>
+		  <th width="150">Loan Status</th>
+		  <th width="150">Comments</th>
+		</tr>
+	      </thead>
+	      <tbody>
+		<tr>
+		  <td>On The Impossible Past</td>
+		  <td>The Menzingers</td>
+		  <td>Epitaph Records</td>
+		  <td>Vinyl</td>
+		  <td>Not Loaned</td>
+		  <td>This is my favorite album.</td>
+		</tr>
+		<tr>
+		  <td>The Light Under Closed Doors</td>
+		  <td>The Swellers</td>
+		  <td>No Sleep Records</td>
+		  <td>Vinyl</td>
+		  <td>Not Loaned</td>
+		  <td>The Swellers are from Flint.</td>
+		</tr>
+		<tr>
+		  <td>The Greatest Generation</td>
+		  <td>The Wonder Years</td>
+		  <td>Hopeless Records</td>
+		  <td>Vinyl</td>
+		  <td>Loaned</td>
+		  <td>The record has too much surface noise.</td>
+		</tr>
+		<tr>
+		  <td>Please Remain Calm</td>
+		  <td>Hostage Calm</td>
+		  <td>Run For Cover Records</td>
+		  <td>Vinyl</td>
+		  <td>Not Loaned</td>
+		  <td>Clear Vinyl</td>
+		</tr>
+		<tr>
+		  <td>Gospel</td>
+		  <td>Fireworks</td>
+		  <td>Triple Crown Records</td>
+		  <td>Vinyl</td>
+		  <td>Loaned</td>
+		  <td>No comment.</td>
+		</tr>
+	      </tbody>
+	    </table>
         </div>
     </div>
     <footer></footer>

@@ -1,0 +1,21 @@
+Strategy
+
+    My site is for the user who loves music.
+    The goal of the site is to be a place to catalog the user's home record library.
+    Additionally, the user can connect with other users or friends and talk about their albums.
+    The site will have a friending feature, where albums can be traded.
+    The site can be used to track loaned records, ensuring the the user knows where his records are.
+    Ideally, the database should be able to autocomplete forms if it finds that a record has been entered before by another user.
+    Profile pages will be available, where users can show off their favorite albums.
+    Lastly, the site could be a place for users to show off their collections. It does need a bit better branding, including a name and logo.
+
+Scope
+
+    - Create user accounts
+    - Allow users to make connections to one another
+    - Users can input their information about the records they own
+    - Users can comment/discuss their albums.
+    - Profile pages for each user, where he can show off his favorite records
+    - A record swapping forum
+    - Potentially pages for each record with track listing.
+    
